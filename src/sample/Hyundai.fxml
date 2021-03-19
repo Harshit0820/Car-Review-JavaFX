@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HyundaiController">
+    <children>
+        <Button contentDisplay="TOP" layoutX="16.0" layoutY="41.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Hyundai Creta" textFill="WHITE" AnchorPane.bottomAnchor="205.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="279.0" AnchorPane.topAnchor="41.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="85.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/hyundai-creta-big.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutX="48.0" layoutY="172.0" text="₹ 9.82 Lakhs onwards" textFill="#bdb7b7">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button contentDisplay="TOP" layoutX="251.0" layoutY="41.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Hyundai Venue" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="92.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/hyundai-venue.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button contentDisplay="TOP" layoutX="16.0" layoutY="231.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Hyundai Grand i10" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="101.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/grand%20i10modelimage.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button contentDisplay="TOP" layoutX="255.0" layoutY="230.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Hyundai Tucson" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="98.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/20200124034102_hyundai-tucson-facelift.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutX="283.0" layoutY="179.0" text="₹ 6.75 Lakhs onwards" textFill="#bdb7b7">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="48.0" layoutY="369.0" text="₹ 5.92 Lakhs onwards" textFill="#bdb7b7">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="287.0" layoutY="369.0" text="₹ 22.3 Lakhs onwards" textFill="#bdb7b7">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button fx:id="back" layoutX="450.0" layoutY="5.0" mnemonicParsing="false" onAction="#backaction" style="-fx-background-color: #2D3447;" text="BACK" textFill="#f0ecec" underline="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

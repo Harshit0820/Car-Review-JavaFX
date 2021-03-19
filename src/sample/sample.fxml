@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <AnchorPane prefHeight="475.0" prefWidth="700.0" style="-fx-background-color: #2D3447;">
+         <children>
+            <TextField fx:id="username" layoutX="230.0" layoutY="209.0" prefHeight="30.0" prefWidth="253.0" promptText="USERNAME" AnchorPane.leftAnchor="230.0" AnchorPane.rightAnchor="230.0">
+               <font>
+                  <Font size="13.0" />
+               </font></TextField>
+            <PasswordField fx:id="password" layoutX="230.0" layoutY="269.0" prefHeight="26.0" prefWidth="242.0" promptText="PASSWORD" AnchorPane.leftAnchor="230.0" AnchorPane.rightAnchor="230.0" />
+            <Button fx:id="signup" layoutX="564.0" layoutY="39.0" mnemonicParsing="false" onAction="#signUpAction" prefHeight="37.0" prefWidth="94.0" style="-fx-border-color: #a0a2ab; -fx-background-color: #151928;" text="SIGN UP" textFill="#a0a2ab" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="564.0" AnchorPane.rightAnchor="41.6" AnchorPane.topAnchor="39.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="login" layoutX="375.0" layoutY="336.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="37.0" prefWidth="94.0" style="-fx-background-color: #2196f3;" text="LOGIN" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <CheckBox fx:id="remember" layoutX="230.0" layoutY="335.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="136.0" text="REMEMBER ME" textFill="#a0a2ab">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </CheckBox>
+            <Button fx:id="forgotPassword" layoutX="270.0" layoutY="400.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="162.0" style="-fx-background-color: #2D3447;" text="FORGOT PASSWORD?" textFill="#a0a2ab" underline="true" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="270.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <ImageView fitHeight="105.0" fitWidth="107.0" layoutX="291.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="350.2" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="20.0">
+               <image>
+                  <Image url="@images/car-100px-copy_orig.png" />
+               </image></ImageView>
+            <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="188.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/contacts-xxl.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="188.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/lock-xxl.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="192.0" layoutY="136.0" prefHeight="38.0" prefWidth="285.0" text="   CAR REVIEW" textFill="#2196f3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="700.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+   <children>
+      <TextField fx:id="name" layoutX="250.0" layoutY="156.0" prefHeight="26.0" prefWidth="232.0" promptText="ENTER YOUR USERNAME" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
+      <PasswordField fx:id="password" layoutX="250.0" layoutY="208.0" prefHeight="26.0" prefWidth="232.0" promptText="ENTER YOUR PASSWORD" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
+      <RadioButton fx:id="male" layoutX="238.0" layoutY="300.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="63.0" text="Male" textFill="#a2a0ab" AnchorPane.bottomAnchor="148.5" AnchorPane.leftAnchor="238.0" AnchorPane.rightAnchor="398.8" AnchorPane.topAnchor="300.0">
+         <font>
+            <Font size="15.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="female" layoutX="315.0" layoutY="299.0" mnemonicParsing="false" text="Female" textFill="#a2a0ab" AnchorPane.bottomAnchor="149.5" AnchorPane.topAnchor="299.0">
+         <font>
+            <Font size="15.0" />
+         </font></RadioButton>
+      <TextField fx:id="location" layoutX="250.0" layoutY="350.0" prefHeight="26.0" prefWidth="200.0" promptText="ENTER YOUR LOCATION" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
+      <Button fx:id="signup" layoutX="280.0" layoutY="409.0" mnemonicParsing="false" onAction="#signUpAction" prefHeight="35.0" prefWidth="127.0" style="-fx-background-color: #2196f3;" text="SIGN UP" textFill="WHITE" AnchorPane.leftAnchor="280.0" AnchorPane.rightAnchor="280.0">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="211.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/contacts-xxl.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="211.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/lock-xxl.png" />
+         </image></ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="211.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/location-gray-512.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="107.0" layoutX="290.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="390.0" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="-20.0">
+         <image>
+            <Image url="@images/car-100px-copy_orig.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="257.0" layoutY="98.0" prefHeight="38.0" prefWidth="285.0" text="   CAR REVIEW" textFill="#2196f3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="login" layoutX="564.0" layoutY="34.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="37.0" prefWidth="94.0" style="-fx-border-color: #a0a2ab; -fx-background-color: #151928;" text="LOGIN" textFill="#a0a2ab" AnchorPane.bottomAnchor="395.0" AnchorPane.leftAnchor="564.0" AnchorPane.rightAnchor="41.60000000000002" AnchorPane.topAnchor="39.0">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <RadioButton fx:id="other" layoutX="402.0" layoutY="302.0" mnemonicParsing="false" text="Other" textFill="#a2a0ab">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="genders" layoutX="250.0" layoutY="253.0" prefHeight="35.0" prefWidth="200.0" text="CHOOSE GENDER" textFill="#a2a0ab" underline="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

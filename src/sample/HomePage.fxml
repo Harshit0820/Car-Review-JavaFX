@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomePageController">
+   <children>
+      <Separator layoutX="187.0" layoutY="64.0" prefHeight="16.0" prefWidth="510.0" />
+      <Pane prefHeight="475.0" prefWidth="189.0" style="-fx-background-color: #2D3447;">
+         <children>
+            <ImageView fitHeight="88.0" fitWidth="76.0" layoutX="51.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/car-100px-copy_orig.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="27.0" layoutY="72.0" text="CAR REVIEW" textFill="#2196f3">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Line endX="38.099998474121094" layoutX="39.0" layoutY="121.0" startX="-100.0" stroke="WHITE" />
+            <AnchorPane layoutX="6.0" layoutY="117.0" prefHeight="90.0" prefWidth="176.0">
+               <children>
+                  <Label layoutX="1.0" layoutY="16.0" prefHeight="20.0" prefWidth="158.0" text="Welcome to Car Review" textFill="#a0a2ab" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-16.0" AnchorPane.topAnchor="16.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Label>
+                  <Label layoutX="1.0" layoutY="36.0" prefHeight="26.0" prefWidth="168.0" text="Here, you will find Cars" textFill="#a0a2ab" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="38.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Label>
+                  <Label layoutX="1.0" layoutY="56.0" text="Information" textFill="#a0a2ab" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="13.800000000000011" AnchorPane.topAnchor="60.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="8.0" layoutY="201.0" prefHeight="171.0" prefWidth="176.0">
+               <children>
+                  <Label layoutX="13.0" layoutY="19.0" text="DASHBOARD" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="homeb" layoutX="27.0" layoutY="57.0" mnemonicParsing="false" onAction="#homebtn" style="-fx-background-color: #2D3447;" text="HOME" textFill="#a0a2ab" AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="57.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="27.0" layoutY="95.0" mnemonicParsing="false" style="-fx-background-color: #2D3447;" text="MY CARS" textFill="#a0a2ab" AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="95.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="27.0" layoutY="132.0" mnemonicParsing="false" style="-fx-background-color: #2D3447;" text="ABOUT" textFill="#a0a2ab" AnchorPane.leftAnchor="27.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="115.0" layoutY="100.0" prefHeight="27.0" prefWidth="29.0" style="-fx-background-color: #2196F3;" text="0" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Line endX="71.10000610351562" fill="WHITE" layoutX="95.0" layoutY="391.0" startX="-73.9000015258789" stroke="#ffffff" />
+            <Button layoutX="32.0" layoutY="416.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="123.0" style="-fx-background-color: #2D3447; -fx-border-color: white;" text="CONTACT US" textFill="#a0a2ab">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <AnchorPane fx:id="holderPane" layoutX="188.0" layoutY="75.0" prefHeight="401.0" prefWidth="510.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="188.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="75.0" />
+      <ToolBar layoutX="183.0" prefHeight="63.0" prefWidth="519.0" style="-fx-background-color: #2D3447;">
+         <items>
+            <Text fx:id="welcome" fill="#a0a2ab" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" textAlignment="CENTER" wrappingWidth="365.5761470794678" x="50.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="logout" mnemonicParsing="false" onAction="#onlogout" style="-fx-background-color: #2D3447;" text="Log Out" textFill="#a0a2ab" underline="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" mnemonicParsing="false" onAction="#onexit" style="-fx-background-color: #2D3447;" text="Exit" textFill="#a0a2ab" underline="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </items>
+      </ToolBar>
+   </children>
+</AnchorPane>

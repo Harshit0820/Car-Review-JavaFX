@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+      <Button fx:id="maruti" contentDisplay="TOP" layoutX="15.0" layoutY="20.0" mnemonicParsing="false" onAction="#marutiAction" prefHeight="184.0" prefWidth="234.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="MARUTI SUZUKI" textFill="WHITE" AnchorPane.bottomAnchor="206.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="261.0" AnchorPane.topAnchor="20.0">
+         <graphic>
+            <ImageView fitHeight="188.0" fitWidth="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/maruti-suzuki_1485519045.jpeg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="skoda" contentDisplay="TOP" layoutX="261.0" layoutY="217.0" mnemonicParsing="false" onAction="#skodaAction" prefHeight="177.0" prefWidth="234.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="SKODA AUTO" textFill="#fffafa" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="261.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="217.0">
+         <graphic>
+            <ImageView fitHeight="151.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Best-Skoda-Cars-in-India-New-and-Used.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="hyundai" contentDisplay="TOP" layoutX="263.0" layoutY="20.0" mnemonicParsing="false" onAction="#hyundaiAction" prefHeight="184.0" prefWidth="234.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="HYUNDAI" textFill="#fffefe" AnchorPane.bottomAnchor="206.0" AnchorPane.leftAnchor="263.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="20.0">
+         <graphic>
+            <ImageView fitHeight="198.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Hyundai-6816.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="tataMotors" contentDisplay="TOP" layoutX="15.0" layoutY="217.0" mnemonicParsing="false" onAction="#tataMotorsAction" prefHeight="177.0" prefWidth="234.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="TATA MOTORS" textFill="#fffafa" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="261.0" AnchorPane.topAnchor="217.0">
+         <graphic>
+            <ImageView fitHeight="129.0" fitWidth="205.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Tata-Motors-Passenger-cars.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

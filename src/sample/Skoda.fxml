@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SkodaController">
+    <children>
+        <Button contentDisplay="TOP" layoutX="16.0" layoutY="41.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Skoda Octavia" textFill="WHITE" AnchorPane.bottomAnchor="205.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="279.0" AnchorPane.topAnchor="41.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="84.0" fitWidth="135.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/skoda-octavia-rs-front-still-ebee.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutX="48.0" layoutY="172.0" text="₹ 30 Lakhs onwards" textFill="#bdb7b7">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button contentDisplay="TOP" layoutX="251.0" layoutY="41.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Skoda Superb" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="92.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/2019-Skoda-Superb-facelift-front-three-quarter.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button contentDisplay="TOP" layoutX="16.0" layoutY="231.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Skoda Karoq" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="114.0" fitWidth="153.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/20200526010045_2020-Skoda-Karoq.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button contentDisplay="TOP" layoutX="255.0" layoutY="230.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Skoda Rapid" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="98.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/rapidmodelimage.jpg" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutX="283.0" layoutY="179.0" text="₹ 28 Lakhs onwards" textFill="#bdb7b7">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="48.0" layoutY="369.0" text="₹ 25 Lakhs onwards" textFill="#bdb7b7">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="287.0" layoutY="369.0" text="₹ 9 Lakhs onwards" textFill="#bdb7b7">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button fx:id="back" layoutX="450.0" layoutY="5.0" mnemonicParsing="false" onAction="#backaction" style="-fx-background-color: #2D3447;" text="BACK" textFill="#f0ecec" underline="true">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

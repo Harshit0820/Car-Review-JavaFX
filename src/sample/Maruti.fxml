@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MarutiController">
+    <children>
+        <Button contentDisplay="TOP" layoutX="16.0" layoutY="41.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Maruti Suzuki Alto 800" textFill="WHITE" AnchorPane.bottomAnchor="205.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="279.0" AnchorPane.topAnchor="41.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+         <graphic>
+                <ImageView fitHeight="76.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/16760.png" />
+                    </image>
+                </ImageView>
+         </graphic>
+        </Button>
+      <Label layoutX="48.0" layoutY="172.0" text="₹ 2.94 Lakhs onwards" textFill="#bdb7b7">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button contentDisplay="TOP" layoutX="251.0" layoutY="41.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Maruti Suzuki Swift Dezire" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="92.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/maruti-suzuki-dzire_story_647_051517035121.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="16.0" layoutY="231.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Maruti Suzuki Brezza" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="96.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Suzuki-Vitara-Brezza.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="255.0" layoutY="230.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2D3447; -fx-border-color: #a0a2ab;" text="Maruti Suzuki S-Cross" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="98.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/2017-Maruti-S-Cross-Crossover-India.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="283.0" layoutY="179.0" text="₹ 5.89 Lakhs onwards" textFill="#bdb7b7">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="369.0" text="₹ 7.34 Lakhs onwards" textFill="#bdb7b7">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="287.0" layoutY="369.0" text="₹ 11.33 Lakhs onwards" textFill="#bdb7b7">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="450.0" layoutY="5.0" mnemonicParsing="false" onAction="#backaction" style="-fx-background-color: #2D3447;" text="BACK" textFill="#f0ecec" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
