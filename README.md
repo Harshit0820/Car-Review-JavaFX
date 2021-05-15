@@ -1,5 +1,5 @@
 # Car-Review-JavaFX
-In this project users can view reviews, rates and all information of cars whose data is already uploaded. For this users have to sign up with some details that will get stored in the backend using sql server from sql workbench and once signed up they only need to login as code will remember their credentials. Then by clicking on the company's name users can see details of some car models that are already saved. Each time user runs code login will be necesarry.
+In this project users can see rates of cars whose data is already uploaded. For this users have to sign up with some details that will get stored in the backend using sql server from sql workbench and once signed up they only need to login as code will remember their credentials. Then by clicking on the company's name users can see details of some car models that are already saved. Each time user runs code login will be necesarry.
 
 SOME IMAGES OF THE OUTPUT OR THE APPLICATION
 
