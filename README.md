@@ -5,7 +5,7 @@ SOME IMAGES OF THE OUTPUT OR THE APPLICATION
 
 Sign Up Page:-
 
-![signup](https://user-images.githubusercontent.com/72250893/118377742-d2e40400-b5ec-11eb-9dfe-7b9ae6843c15.PNG)
+![Capture](https://user-images.githubusercontent.com/72250893/118377953-06735e00-b5ee-11eb-873d-7ee6adde0d7b.PNG)
 
 Login Page:-
 
