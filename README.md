@@ -2,6 +2,7 @@
 In this project users can view reviews, rates and all information of cars whose data is already uploaded. For this users have to sign up with some details that will get stored in the backend using sql server from sql workbench and once signed up they only need to login as code will remember their credentials. Then by clicking on the company's name users can see details of some car models that are already saved. Each time user runs code login will be necesarry.
 
 SOME IMAGES OF THE OUTPUT OR THE APPLICATION
+
 Sign Up Page:-
 
 ![signup](https://user-images.githubusercontent.com/72250893/118377742-d2e40400-b5ec-11eb-9dfe-7b9ae6843c15.PNG)
